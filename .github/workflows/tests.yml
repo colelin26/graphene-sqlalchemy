@@ -8,7 +8,7 @@ jobs:
     strategy:
       max-parallel: 10
       matrix:
-        sql-alchemy: ["1.2", "1.3"]
+        sql-alchemy: ["1.2", "1.3", "1.4"]
         python-version: ["3.6", "3.7", "3.8", "3.9"]
 
     steps:
